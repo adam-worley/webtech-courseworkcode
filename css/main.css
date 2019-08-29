@@ -1,0 +1,41 @@
+#content {
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+nav ul li a{ 
+    color: lightslategray;
+    text-decoration: none;
+}
+nav ul li a:link{ 
+    color: none ;
+    text-decoration: none;
+}
+
+    nav ul li a:hover{
+        color:lightgreen;
+        text-decoration:none;
+}
+nav ul li a:active{
+    color: green;
+    text-decoration: none;
+}
+
+nav {
+    padding: 1% 1% 1% 1% ;
+}
+
+nav ul {
+    margin-left: 65%;
+    width: 25%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
