@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family:'Arial Narrow', Arial, sans-serif;
@@ -13,7 +17,7 @@ body {
   
 #logo{
   float: left;
-  height: 70px;
+  height: 77px;
   vertical-align: middle;
 }
 
@@ -24,13 +28,13 @@ nav{
 }
 
 nav ul{
-  margin-left: 10%;
-  width: 30%;
+  margin-left: 15%;
+  width: 35%;
 }
 
 nav ul li{
   display: inline;
-  margin-right: 2%;
+  margin-right: 4%;
   font-size: 32px;
 }
 
@@ -63,7 +67,7 @@ nav ul li a:active{
     padding-top: 60px;
 }
 
-#topsection{
+#headersection{
     background: url('../img/headerimage.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -93,8 +97,130 @@ nav ul li a:active{
 #quotetext{
     text-align: center;
     font-family:'Permanent Marker', cursive;
+    color: black;
 }
 
 #authorname{
     text-align: center;
+    color: black
+}
+
+.row{
+  display: flex;
+}
+
+
+.pic{
+  flex: 33.33%;
+  padding: 10px;
+  position: relative;
+}
+
+.pic .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: white;
+  font-size: 48px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.pic:hover .btn {
+  border: 2px solid white;
+  font-size: 18px;
+}
+
+.btn span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.pic:hover img {
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -o-filter: blur(1px);
+  filter: blur(1px);
+  transform: scale(1.03);
+}
+
+.pic:hover .imgtext {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+
+#picturelinks{
+  padding-bottom: 1%;
+}
+
+#footer{
+  overflow: hidden;
+  background-color: #1e1e1e;
+
+}
+
+.column{
+  flex: 33.33%;
+  padding: 1%;
+  position: relative;
+  text-align: center;
+}
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+  color: whitesmoke;
+}
+
+.fa-linkedin{
+  color: whitesmoke;
+}
+
+.fa-instagram{
+  color: whitesmoke;
+}
+
+#h1foot{
+  color: whitesmoke
 }
