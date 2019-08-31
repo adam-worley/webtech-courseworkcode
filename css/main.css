@@ -53,15 +53,15 @@ nav ul li a:active{
   padding: 16px;
 }
   
-  .sticky {
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
   
-  .sticky + .content {
+.sticky + .content {
     padding-top: 60px;
-  }
+}
 
 #topsection{
     background: url('../img/headerimage.jpg');
