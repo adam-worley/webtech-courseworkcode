@@ -1,59 +1,67 @@
-#content{
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
-    margin:0;
-    background-color: #ffffff;
+body {
+  margin: 0;
+  font-family:'Arial Narrow', Arial, sans-serif;
+  background-color: #ffffff;
 }
-
-#navbar{
-    background-color: #1e1e1e;
-    margin-bottom: 0px;
-    scroll-padding: 50px 0 0 50px;
+  
+#navbar {
+  overflow: hidden;
+  background-color: #1e1e1e;
+  margin-bottom: 0px;
+  scroll-padding: 50px 0 0 50px;
 }
-
+  
 #logo{
-    float: left;
-    height: 70px;
-    vertical-align: middle;
-}
-nav ul li a{ 
-    color: whitesmoke;
-    text-decoration: none;
-
-}
-nav ul li a:link{ 
-    color: none ;
-    text-decoration: none;
-}
-
-    nav ul li a:hover{
-        color:lightgreen;
-        text-decoration:none;
-}
-
-nav ul li a:active{
-    color: green;
-    text-decoration: none;
+  float: left;
+  height: 70px;
+  vertical-align: middle;
 }
 
 nav{
-    padding: 0.5% 1% 0.5% 1% ;
-    height: 70px;
-    vertical-align: middle;
+  padding: 0.5% 1% 0.5% 1% ;
+  height: 70px;
+  vertical-align: middle;
 }
 
 nav ul{
-    margin-left: 10%;
-    width: 30%;
-
+  margin-left: 10%;
+  width: 30%;
 }
 
 nav ul li{
-    display: inline;
-    margin-right: 2%;
-    font-size: 32px;
-
+  display: inline;
+  margin-right: 2%;
+  font-size: 32px;
 }
+
+nav ul li a{ 
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color:lightgreen;
+  text-decoration:none;
+}
+
+nav ul li a:active{
+  color: green;
+  text-decoration: none;
+}
+
+#content {
+  padding: 16px;
+}
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
 
 #topsection{
     background: url('../img/headerimage.jpg');
@@ -72,6 +80,7 @@ nav ul li{
     vertical-align: middle;
     font-size: 48px;
 }
+
 #imageh2{
     color: #ffffff;
     text-align: center;
