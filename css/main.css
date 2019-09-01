@@ -11,31 +11,50 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #1e1e1e;
-  margin-bottom: 0px;
-  scroll-padding: 50px 0 0 50px;
+  padding-bottom: 0.6%;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 99;
 }
-  
+
 #logo{
   float: left;
-  height: 77px;
-  vertical-align: middle;
+  height: 59px;
+  transition: 0.4s;
+  margin-left: 0.3%;
 }
 
-nav{
-  padding: 0.5% 1% 0.5% 1% ;
-  height: 70px;
-  vertical-align: middle;
+#linkreduce{
+  font-size:28px;
+  transition: 0.4s;
 }
 
-nav ul{
-  margin-left: 15%;
-  width: 35%;
+#linkreuse{
+  font-size:28px;
+  transition:0.4s;
+}
+
+#linkrecycle{
+  font-size:28px;
+  transition:0.4s;
+}
+
+#linksugestions{
+  font-size:28px;
+  transition:0.4s;
+}
+
+#links{
+  margin-left: 10.3%;
+  padding-top: 0.5%;
+  transition:0.4s;
 }
 
 nav ul li{
   display: inline;
-  margin-right: 4%;
-  font-size: 32px;
+  margin-right: 1%;
 }
 
 nav ul li a{ 
@@ -51,20 +70,6 @@ nav ul li a:hover{
 nav ul li a:active{
   color: green;
   text-decoration: none;
-}
-
-#content {
-  padding: 16px;
-}
-  
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-  
-.sticky + .content {
-    padding-top: 60px;
 }
 
 #headersection{
@@ -88,6 +93,8 @@ nav ul li a:active{
 #imageh2{
     color: #ffffff;
     text-align: center;
+    width: 90%;
+    Margin-left: 5%;
 }
 
 #quote{
@@ -222,5 +229,39 @@ nav ul li a:active{
 }
 
 #h1foot{
-  color: whitesmoke
+  color: whitesmoke;
+}
+
+#ourcommitment{
+  text-align: center;
+  font-size: 72px;
+}
+
+p{
+  text-align: center;
+  font-size: 32px;
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 1%;
+}
+
+hr{
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 35%;
+  margin-top: 0%;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
 }
