@@ -7,7 +7,7 @@ function scrollFunction() {
     document.getElementById("linkreuse").style.fontSize = "14px";
     document.getElementById("linkrecycle").style.fontSize = "14px";
     document.getElementById("linksugestions").style.fontSize = "14px";
-    document.getElementById("links").style.marginLeft = "4.3%";
+    document.getElementById("links").style.marginLeft = "5.3%";
     document.getElementById("links").style.paddingTop = "0.1%";
     document.getElementById("navbar").style.paddingBottom = "0.1%";
   } else {

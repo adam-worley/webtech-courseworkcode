@@ -47,7 +47,7 @@ body {
 }
 
 #links{
-  margin-left: 10.3%;
+  margin-left: 12.3%;
   padding-top: 0.5%;
   transition:0.4s;
 }
@@ -540,15 +540,177 @@ input[type=submit]:hover {
 
 
 @media screen and (max-width: 580px) {
+    
   #navbar {
-    padding: 20px 10px;
+    padding-bottom: 0%;
+    position: fixed;
+    width: 0%;
+    height: 0%
+
   }
-  #navbar a {
-    float: none;
-    display: block;
-    text-align: left;
+  #logo{
+    height: 0px;
   }
-  #navbar-right {
-    float: none;
+  
+  #linkreduce{
+    font-size:0px;
+
+  }
+  
+  #linkreuse{
+    font-size:0px;
+  }
+  
+  #linkrecycle{
+    font-size:0px;
+  }
+  
+  #linksugestions{
+    font-size:0px;
+  }
+  
+  i {
+    border: none;
+    border-width: 0 0px 0px 0;
+    width:0px;
+    height:0px;
+  }
+  
+  #headersectionhome{
+      background: url('../img/headerimagemob.jpg');
+      height: 400px;
+      width:100%;
+  }
+  
+  #headersectionreduce{
+    background: url('../img/reducemob.jpg');
+    height: 400px;
+  }
+  
+  #headersectionreuse{
+    background: url('../img/reusemob.jpg');
+    height: 400px;
+  }
+  
+  #headersectionrecycle{
+    background: url('../img/recyclemob.jpg');
+    height: 400px;
+  }
+  
+  #imageh1{
+      padding-top: 30%;
+      font-size: 24px;
+  }
+  
+  #imageh2{
+      font-size: 12px;
+      padding-top: 5%;
+  }
+  
+
+  #quotetext{
+      font-size: 18px;
+  }
+  
+  #authorname{
+      font-size:18px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+  
+  .row{
+    display: inline;
+  }
+
+  .pic .btn {
+    border: 2px solid white;
+  }
+
+  #ourcommitment{
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+  
+  ol li{
+    font-size: 14px;
+    margin-left: 5%;
+  }
+  
+  hr.commitment{
+    width: 52%;
+  }
+  
+  hr.social{
+    width: 28%;
+  }
+
+  
+  hr.priv{
+    width: 34%;
+  }
+  
+  hr.contact{
+    width: 44%;
+  }
+  
+  hr.whatwedo{
+    width: 60%;
+  }
+  
+  #whatwearedoing{
+    font-size: 24px;
+  }
+  
+  hr.whatyoudo{
+    width: 77%;
+  }
+  
+  #whatyoucando{
+    font-size: 24px;
+  }
+
+  
+  hr.plastic{
+    width: 19%;
+  }
+  
+  hr.packing{
+    width: 44%;
+  }
+  
+  hr.recycle{
+    width: 25%;
+  }
+  
+  #reduce{
+    font-size: 18px;
+  }
+
+  #recyclelist{
+    font-size: 14px;
+  }
+
+  #whatlist{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #linkreduce{
+    Margin-left: 5%;
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+  #linkreduce{
+    Margin-left: 3%;
   }
 }
