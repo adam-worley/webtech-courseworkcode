@@ -706,6 +706,11 @@ input[type=submit]:hover {
   #linkreduce{
     Margin-left: 5%;
   }
+  .pic .btn {
+    border: 2px solid white;
+    width:80%;
+    font-size:24px;
+  }
 
 }
 
