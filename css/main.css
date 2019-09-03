@@ -107,7 +107,7 @@ h2{
 }
 
 #headersectionreuse{
-  background: url('../img/reusehead.jpg');
+  background: url('../img/reuse.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   height: 700px;
@@ -436,11 +436,46 @@ hr.water{
   margin-bottom: 0;
 }
 
+hr.plastic{
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 14%;
+  margin-top: 0%;
+  margin-bottom: 0;
+}
+
+hr.packing{
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 35%;
+  margin-top: 0%;
+  margin-bottom: 0;
+}
+
+hr.recycle{
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 10%;
+  margin-top: 0%;
+  margin-bottom: 0;
+}
+
+
 #whatlist{
   width: 90%;
   margin: 0;
   padding: 0;
   margin-left: 5%;
+  font-weight: bold;
+  list-style-position: inside;
+  font-size: 20px;
+}
+
+#recyclelist{
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
   font-weight: bold;
   list-style-position: inside;
   font-size: 20px;
@@ -501,10 +536,7 @@ input[type=submit]:hover {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+
 
 
 @media screen and (max-width: 580px) {
